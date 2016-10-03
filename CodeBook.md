@@ -41,7 +41,7 @@
 
 ## Transformations
 
-Column Names of the final dataset are transformed as below to give descriptive names. (Mean and Std related variables are filtered)
+Column Names of the tidy file (uci_har_dataset.txt, available in this repo) are transformed as below to give descriptive names. (Mean and Std related variables are filtered)
 
 * timeBodyAccelerometer-mean()-X
 * timeBodyAccelerometer-mean()-Y
@@ -109,3 +109,4 @@ Column Names of the final dataset are transformed as below to give descriptive n
 * frequencyBodyGyroscopeMagnitude-std()
 * frequencyBodyGyroscopeJerkMagnitude-mean()
 * frequencyBodyGyroscopeJerkMagnitude-std()
+
