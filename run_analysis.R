@@ -1,6 +1,21 @@
 run_analysis <- function(){
   
   print("Starting the Analysis")
+  
+  print("Downloading andunzipping the file")
+  filename <- "getdata_dataset.zip"
+  
+  ## Download and unzip the dataset:
+  if (!file.exists(filename)){
+    fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
+    download.file(fileURL, filename, method="curl")
+  }  
+  if (!file.exists("UCI HAR Dataset")) { 
+    unzip(filename) 
+  }
+  
+  setwd("~/Data Science/Data/UCI HAR Dataset")
+  
   print("Creating data frames from the source files")
   #Creating data frames from source files
   data_Feat_Names <- read.table("features.txt", header = FALSE) 
