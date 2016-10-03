@@ -22,5 +22,5 @@ The clean up script is used to perform following
   6. Gives descriptive names to all variable columns
   7. Create new dataset by calculating mean value of all variables based on subject and activity
   
-## Clean Data
+## Cleaned Data
 The resulting dataset is writtedn to disc/directory as text file.
