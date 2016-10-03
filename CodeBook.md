@@ -5,7 +5,7 @@
 * subject - ID of the volunteer within an age bracket of 19-48 years participated in the experiment
 * activity - ID of the activity name
 
-## Variable Names used from the file
+## Variable Names used from the files
 
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
@@ -41,7 +41,7 @@
 
 ## Transformations
 
-Column Names of the final dataset are transformed as below to give descriptive name. (Mean and Std related variables are filtered)
+Column Names of the final dataset are transformed as below to give descriptive names. (Mean and Std related variables are filtered)
 
 * timeBodyAccelerometer-mean()-X
 * timeBodyAccelerometer-mean()-Y
