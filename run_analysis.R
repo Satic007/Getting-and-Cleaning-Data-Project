@@ -3,7 +3,10 @@ run_analysis <- function(){
   print("Starting the Analysis")
   
   print("Downloading andunzipping the file")
-  filename <- "getdata_dataset.zip"
+  setwd("~/Data Science/Data/")
+  
+  filename <- "Dataset.zip"
+  
   
   ## Download and unzip the dataset:
   if (!file.exists(filename)){
